@@ -87,6 +87,9 @@
     <Compile Include="bipodshit\bipodcomp.cs" />
     <Compile Include="breach\breachingdoors.cs" />
     <Compile Include="breach\teambreaching.cs" />
+    <Compile Include="Grenade shit\honestly idk what I%27m doing.cs" />
+    <Compile Include="Grenade shit\stuff.cs" />
+    <Compile Include="Grenade shit\stuff2.cs" />
     <Compile Include="Ian\Iantest.cs" />
     <Compile Include="Ian\Ian.cs" />
     <Compile Include="Mags\ceutil.cs" />

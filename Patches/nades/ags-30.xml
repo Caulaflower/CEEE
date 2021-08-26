@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+   
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_AGSThirty"]/comps</xpath>
+        <value>
+           <li><compClass>magazynier.Grenade_shit.GizmoForOtherNades</compClass></li>
+        </value>
+    </Operation>
+  
+    
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="TurretBase"]/thingClass</xpath>
+        <value>
+           <thingClass>magazynier.Grenade_shit.Building_TurretGunCEEE</thingClass>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_AGSThirty"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]</xpath>
+        <value>
+            <li Class="magazynier.CompProperties_MagazineUser">
+                <magazineSize>1</magazineSize>
+                <reloadTime>8</reloadTime>
+                <ammoSet>AmmoSet_30x29mmGrenade</ammoSet>
+                <well>ags30belt</well>
+            </li>
+        </value>
+    </Operation>
+   
+   
+</Patch>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="ResourceBase">
+        <defName>thirtyroundagsmag</defName>
+        <label>AGS belt</label>
+        <description>AGS belt.</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/Mag1</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>40</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>1</Mass>
+          <Bulk>0.85</Bulk>
+          <Flammability>0.2</Flammability>
+        </statBases>
+        <recipeMaker>
+          <recipeUsers>
+            <li>TableMachining</li>
+          </recipeUsers>
+          <researchPrerequisite>Gunsmithing</researchPrerequisite>
+          <skillRequirements>
+            <Crafting>2</Crafting>
+          </skillRequirements>
+        </recipeMaker>
+        <costList>
+          <Steel>10</Steel>
+        </costList>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>30</MagazineSize>
+                <MagazineWell>ags30belt</MagazineWell>
+                <reloadtime>5</reloadtime>
+                <ammosetdef>AmmoSet_30x29mmGrenade</ammosetdef>
+                <islinkable>true</islinkable>
+            </li>
+        </comps>
+      </ThingDef>
+    </Defs>

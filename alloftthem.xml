@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <magazynier.MagWellDef>
+      <defName>rpdbelt</defName>
+      <Label>RPD belts</Label>
+    </magazynier.MagWellDef>
+
+    <magazynier.MagWellDef>
+      <defName>fivefourfiveak</defName>
+      <Label>5.45 AK magazine well</Label>
+    </magazynier.MagWellDef>
+
+    <magazynier.MagWellDef>
+      <defName>Maxim54Belt</defName>
+      <Label>7.62x54 Maxim/PK/PKM belt</Label>
+    </magazynier.MagWellDef>
+
+    <magazynier.MagWellDef>
+      <defName>ags30belt</defName>
+      <Label>AGS-30 grenade launcher 30x29mm belt</Label>
+    </magazynier.MagWellDef>
+
+    <magazynier.MagWellDef>
+      <defName>m60link</defName>
+      <Label>Stanag/M60 belts</Label>
+    </magazynier.MagWellDef>
+
+    <magazynier.MagWellDef>
+      <defName>fudmag</defName>
+      <Label>.45 ACP 1911 magazine well</Label>
+    </magazynier.MagWellDef>
+
+    <magazynier.MagWellDef>
+      <defName>sevensixtwobythirtynineak</defName>
+      <Label>7.62x39 AK magazine well</Label>
+    </magazynier.MagWellDef>
+
+    <magazynier.MagWellDef>
+      <defName>stanagmagwell</defName>
+      <Label>STANAG (AR) magazine well</Label>
+    </magazynier.MagWellDef>
+
+    <magazynier.MagWellDef>
+      <defName>glockmagwell</defName>
+      <Label>Glock magazine well</Label>
+    </magazynier.MagWellDef>
+
+    <magazynier.MagWellDef>
+      <defName>umpmagwell</defName>
+      <Label>UMP 45 magazine well</Label>
+    </magazynier.MagWellDef>
+
+    <magazynier.MagWellDef>
+      <defName>svdagwell</defName>
+      <Label>SVD magazine well</Label>
+    </magazynier.MagWellDef>
+
+    <magazynier.MagWellDef>
+      <defName>fal</defName>
+      <Label>FAL magazine well</Label>
+    </magazynier.MagWellDef>
+
+    <magazynier.MagWellDef>
+      <defName>DP28</defName>
+      <Label>DP 28 magazine well</Label>
+    </magazynier.MagWellDef>
+</Defs>

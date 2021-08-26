@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+   
+      <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Weapon_GrenadeStickBomb"]/verbs/li/range</xpath>
+        <value>
+        <range>15</range>
+        </value>
+	</Operation>
+     <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Weapon_GrenadeStickBomb"]/verbs/li/warmupTime</xpath>
+        <value>
+        <warmupTime>0.5</warmupTime>
+        </value>
+	</Operation>
+     <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Weapon_GrenadeStickBomb"]/statBases/SightsEfficiency</xpath>
+        <value>
+        <SightsEfficiency>0.85</SightsEfficiency>
+        </value>
+	</Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Weapon_GrenadeStickBomb"]</xpath>
+        <value>
+            <comps><li><compClass>magazynier.Grenade_shit.GizmoForNades</compClass></li></comps>
+        </value>
+    </Operation>
+</Patch>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Weapon_GrenadeFrag"]/verbs/li/minRange</xpath>
+	</Operation>
+      <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Weapon_GrenadeFrag"]/verbs/li/range</xpath>
+        <value>
+        <range>20</range>
+        </value>
+	</Operation>
+     <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Weapon_GrenadeFrag"]/verbs/li/warmupTime</xpath>
+        <value>
+        <warmupTime>0.5</warmupTime>
+        </value>
+	</Operation>
+     <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Weapon_GrenadeFrag"]/statBases/SightsEfficiency</xpath>
+        <value>
+        <SightsEfficiency>0.85</SightsEfficiency>
+        </value>
+	</Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Weapon_GrenadeFrag"]/comps</xpath>
+        <value>
+           <li><compClass>magazynier.Grenade_shit.GizmoForNades</compClass></li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Weapon_GrenadeFrag"]/comps/li[@Class="CombatExtended.CompProperties_Fragments"]/fragments/Fragment_Small</xpath>
+        <value>
+            <Fragment_Small>75</Fragment_Small>
+        </value>
+	</Operation>
+</Patch>

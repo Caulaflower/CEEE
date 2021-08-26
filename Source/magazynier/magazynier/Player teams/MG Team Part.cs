@@ -115,6 +115,7 @@ namespace magazynier.Player_teams
             }
         }
         public float staticrange;
+        public float change;
         public bool AmIRangeFinder
         {
             get
@@ -191,17 +192,25 @@ namespace magazynier.Player_teams
             if (me.Faction == Faction.OfPlayer && dudetofollow != null && dudetofollow.Position.AdjacentTo8WayOrInside(me.Position) && !dudetofollow.Dead && AmIRangeFinder && dudetofollow.equipment.Primary != null)
             {
 
-                var verbprops = (VerbPropertiesCE)dudetofollow.equipment.Primary.TryGetComp<CompEquippable>().PrimaryVerb.verbProps;
+               
                 if (egg != 1)
                 {
-
-                    verbprops.range = baserange + 10;
+                    var verbprops = (VerbPropertiesCE)dudetofollow.equipment.Primary.TryGetComp<CompEquippable>().PrimaryVerb.verbProps;
+                    change = verbprops.range;
+                    var ghj = verbprops.MemberwiseClone();
+                    
+                    ghj.range = verbprops.range + me.skills.skills.Find(O => O.def == SkillDefOf.Shooting).levelInt;
+                    dudetofollow.equipment.Primary.TryGetComp<CompEquippable>().PrimaryVerb.verbProps = ghj;
+                    //change = ghj.range - verbprops.range;
+                    Log.Message(dudetofollow.equipment.Primary.TryGetComp<CompEquippable>().PrimaryVerb.verbProps.range.ToString());
+                        
+                    //Log.Message("Is Karim great :" + (ghj.range == 1).ToString());
                     ++egg;
 
                 }
 
 
-
+                
 
             }
 
@@ -232,7 +241,7 @@ namespace magazynier.Player_teams
                         {
                             busy = false;
                             var verbprops = (VerbPropertiesCE)dudetofollow.equipment.Primary.TryGetComp<CompEquippable>().PrimaryVerb.verbProps;
-                            verbprops.range = baserange - 10;
+                            verbprops.range = change;
                             Log.Message(verbprops.range.ToString());
                             egg = 0;
                         }

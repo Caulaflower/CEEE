@@ -22,6 +22,8 @@ namespace magazynier
 				return base.EquipmentSource.TryGetComp<MagazineUser>();
 			}
 		}
+	
+
 		public Pawn ammoman
 		{
 			get
@@ -63,7 +65,9 @@ namespace magazynier
 		{
 			get
 			{
+				
 				bool flag = base.CompFireModes != null;
+			
 				bool result;
 				if (flag)
 				{

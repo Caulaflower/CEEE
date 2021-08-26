@@ -140,7 +140,13 @@ namespace magazynier
                 return compChangeable;
             }
         }
-
+        protected override float EffectiveRange
+        {
+            get
+            {
+                return 5f;
+            }
+        }
         public new CompFireModes CompFireModes
         {
             get
