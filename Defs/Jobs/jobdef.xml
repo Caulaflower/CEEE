@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <JobDef>
+        <defName>addbipod</defName>
+        <driverClass>magazynier.AttachBipod</driverClass>
+        <reportString>Attaching TargetC to TargetB at TargetA.</reportString>
+        <casualInterruptible>false</casualInterruptible>
+      </JobDef>
+      <JobDef>
+        <defName>Ineedtopiss</defName>
+        <driverClass>magazynier.SetUpBipod</driverClass>
+        <reportString>Setting up bipod.</reportString>
+        <casualInterruptible>false</casualInterruptible>
+      </JobDef>
+      <JobDef>
+        <defName>amogus</defName>
+        <driverClass>magazynier.kickoutdoor</driverClass>
+        <reportString>kicking out a door.</reportString>
+        <casualInterruptible>false</casualInterruptible>
+      </JobDef>
+      <JobDef>
+        <defName>converttofullauto</defName>
+        <driverClass>magazynier.ConvertToFull</driverClass>
+        <reportString>Converting TargetA to full auto.</reportString>
+        <casualInterruptible>false</casualInterruptible>
+      </JobDef>
+      <JobDef>
+        <defName>linkingbelts</defName>
+        <driverClass>magazynier.LinkBelts</driverClass>
+        <reportString>Linking TargetA with TargetB.</reportString>
+        <casualInterruptible>false</casualInterruptible>
+      </JobDef>
+</Defs>

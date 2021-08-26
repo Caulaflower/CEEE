@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <StatDef Abstract="True" Name="BipodBase">
+        <category>Basics</category>
+        <defaultBaseValue>1</defaultBaseValue>
+        <minValue>0.05</minValue>
+        <maxValue>12</maxValue>
+        <toStringStyle>FloatTwo</toStringStyle>
+        <showIfUndefined>true</showIfUndefined>
+        
+      </StatDef>
+      <StatDef ParentName="BipodBase">
+        <defName>WarmupDecrease</defName>
+        <label>Warmup decrease</label>
+        <description>The bipod's decrease in warmup time when it is set up.</description>
+        <displayPriorityInCategory>50</displayPriorityInCategory>
+      </StatDef>
+      <StatDef ParentName="BipodBase">
+        <defName>timetosetupthebipod</defName>
+        <label>Time to set up</label>
+        <description>The time required to get the bipod into action.</description>
+        <displayPriorityInCategory>40</displayPriorityInCategory>
+      </StatDef>
+      <StatDef ParentName="BipodBase">
+        <defName>accuracyincreasebipod</defName>
+        <label>Increase in weapon handling</label>
+        <description>When the bipod is set up the weapon handling will be multiplied by this.</description>
+        <displayPriorityInCategory>40</displayPriorityInCategory>
+      </StatDef>
+      <ThingDef ParentName="ResourceBase">
+        <defName>bipodtest</defName>
+        <label>Bipod testing</label>
+        <stackLimit>5</stackLimit>
+        <recipeMaker>
+          <skillRequirements>
+            <Crafting>8</Crafting>
+          </skillRequirements>
+          <recipeUsers Inherit="False">
+            <li>CraftingSpot</li>
+          </recipeUsers>
+        </recipeMaker>
+        <costList>
+          <Chemfuel>20</Chemfuel>
+        </costList>
+        <description>Bipod used for testing, you shouldn't see this.</description>
+        <graphicData>
+          <texPath>Bipods/open_bipod</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <timetosetupthebipod>2</timetosetupthebipod>
+          <accuracyincreasebipod>1</accuracyincreasebipod>
+          <WarmupDecrease>0.9</WarmupDecrease>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>60</Mass>
+          <Bulk>30</Bulk>
+          <Flammability>1.2</Flammability>
+        </statBases>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+       
+      </ThingDef>
+</Defs>

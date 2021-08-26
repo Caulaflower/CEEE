@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <FactionDef ParentName="FactionBase" Abstract="True" Name="IanBase">
+        <pawnSingular>Ian</pawnSingular>
+        <pawnsPlural>Ian's clones</pawnsPlural>
+        <categoryTag>Ancient</categoryTag>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <fixedName>Gun Jesus</fixedName>
+        <factionIconPath>World/WorldObjects/Expanding/Sites/DownedRefugee</factionIconPath>
+        <techLevel>Industrial</techLevel>
+        <backstoryFilters>
+          <li>
+            <categories>
+              <li>Offworld</li>
+            </categories>
+          </li>
+        </backstoryFilters>
+        <hidden>true</hidden>
+        <rescueesCanJoin>false</rescueesCanJoin>
+        <autoFlee>false</autoFlee>
+        <geneticVariance>1</geneticVariance>
+        <apparelStuffFilter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </apparelStuffFilter>
+        
+      </FactionDef>
+
+
+      <FactionDef ParentName="IanBase">
+        <defName>IanFaction</defName>
+        <label>Ian's clones</label>
+      </FactionDef>
+
+
+      <PawnKindDef>
+        <defName>IanPawnKind</defName>
+        <label>Ian</label>
+        <race>Human</race>
+        <skinColorOverride>(255,224,189)</skinColorOverride>
+        <defaultFactionType>IanFaction</defaultFactionType>
+        <chemicalAddictionChance>0.00</chemicalAddictionChance>
+        <backstoryCryptosleepCommonality>0.00</backstoryCryptosleepCommonality>
+        <invNutrition>2.55</invNutrition>
+        <apparelTags>
+          <li>IndustrialBasic</li>
+          <li>IndustrialAdvanced</li>
+        </apparelTags>
+        <forcedHair>GonHesus</forcedHair>
+        <combatPower>4500</combatPower>
+        <itemQuality>Legendary</itemQuality>
+        <isFighter>true</isFighter>
+        <gearHealthRange>1.0~2.0</gearHealthRange>
+        <weaponTags>
+          <li>Ian</li>
+        </weaponTags>
+        <weaponMoney>1200~1200</weaponMoney>
+        <apparelMoney>1500~1500</apparelMoney>
+        <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+        <techHediffsChance>0.06</techHediffsChance>
+        <nameMaker></nameMaker>
+        <techHediffsMoney>900~900</techHediffsMoney>
+        <techHediffsTags>
+          <li>ImplantEmpireCommon</li>
+          <li>Advanced</li>
+        </techHediffsTags>
+        <fixedGender>Male</fixedGender>
+        <initialWillRange>0~1</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+      </PawnKindDef>
+</Defs>

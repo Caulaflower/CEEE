@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="ResourceBase">
+        <defName>ak30mmag</defName>
+        <label>30 round 7.62x39 AK</label>
+        <description>30 round 7.62x39 AK magazine.</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/Mag1</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>1</Mass>
+          <Bulk>0.85</Bulk>
+          <Flammability>0.2</Flammability>
+        </statBases>
+        <recipeMaker>
+          <recipeUsers>
+            <li>TableMachining</li>
+          </recipeUsers>
+          <researchPrerequisite>Gunsmithing</researchPrerequisite>
+          <skillRequirements>
+            <Crafting>2</Crafting>
+          </skillRequirements>
+        </recipeMaker>
+        <costList>
+          <Steel>10</Steel>
+        </costList>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>30</MagazineSize>
+                <MagazineWell>sevensixtwobythirtynineak</MagazineWell>
+                <reloadtime>2</reloadtime>
+                <ammosetdef>AmmoSet_762x39mmSoviet</ammosetdef>
+            </li>
+        </comps>
+      </ThingDef>
+
+      <ThingDef ParentName="ResourceBase">
+        <defName>ak40mmag</defName>
+        <label>40 round 7.62x39 AK</label>
+        <description>40 round 7.62x39 AK magazine.</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/Mag1</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>1.5</Mass>
+          <Flammability>0.2</Flammability>
+          <Bulk>1.25</Bulk>
+        </statBases>
+        <recipeMaker>
+          <recipeUsers>
+            <li>TableMachining</li>
+          </recipeUsers>
+          <researchPrerequisite>Gunsmithing</researchPrerequisite>
+          <skillRequirements>
+            <Crafting>2</Crafting>
+          </skillRequirements>
+        </recipeMaker>
+        <costList>
+          <Steel>15</Steel>
+        </costList>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>40</MagazineSize>
+                <MagazineWell>sevensixtwobythirtynineak</MagazineWell>
+                <reloadtime>2</reloadtime>
+                <ammosetdef>AmmoSet_762x39mmSoviet</ammosetdef>
+            </li>
+        </comps>
+      </ThingDef>
+      
+
+</Defs>

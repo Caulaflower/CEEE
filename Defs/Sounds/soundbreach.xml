@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><Defs>
+
+    <SoundDef>
+      <defName>breachsound</defName>  
+      <context>MapOnly</context> 
+      <maxSimultaneous>1</maxSimultaneous>  
+      <subSounds>
+        <li>
+          <grains>
+            <li Class="AudioGrain_Clip">
+              <clipPath>breach</clipPath>
+            </li>
+          </grains>      
+          <volumeRange>15~60</volumeRange>
+        </li>
+      </subSounds>
+    </SoundDef>
+  
+  </Defs>
+  

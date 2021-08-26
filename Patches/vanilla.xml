@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_Autopistol"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]</xpath>
+        <value>
+
+            <li Class="magazynier.CompProperties_MagazineUser">
+                        <magazineSize>1</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_45ACP</ammoSet>
+                        <well>fudmag</well>
+            </li>
+        </value>
+                                       
+      
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_Autopistol"]/verbs/li/verbClass</xpath>
+        <value>
+
+            <verbClass>magazynier.Verb_ShootWithMag</verbClass>
+        </value>
+                                       
+      
+    </Operation>
+
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_AssaultRifle"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]</xpath>
+        <value>
+
+            <li Class="magazynier.CompProperties_MagazineUser">
+                        <magazineSize>1</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+                        <well>stanagmagwell</well>
+            </li>
+        </value>
+                                       
+      
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_AssaultRifle"]/verbs/li/verbClass</xpath>
+        <value>
+
+            <verbClass>magazynier.Verb_ShootWithMag</verbClass>
+        </value>
+                                       
+      
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_MachinePistol"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]</xpath>
+        <value>
+
+            <li Class="magazynier.CompProperties_MagazineUser">
+                        <magazineSize>1</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_45ACP</ammoSet>
+                        <well>fudmag</well>
+            </li>
+        </value>
+                                       
+      
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_MachinePistol"]/verbs/li/verbClass</xpath>
+        <value>
+
+            <verbClass>magazynier.Verb_ShootWithMag</verbClass>
+        </value>
+                                       
+      
+    </Operation>
+    <!-- Heavy smg-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_HeavySMG"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]</xpath>
+        <value>
+
+            <li Class="magazynier.CompProperties_MagazineUser">
+                        <magazineSize>1</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_45ACP</ammoSet>
+                        <well>umpmagwell</well>
+            </li>
+        </value>
+                                       
+      
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_HeavySMG"]/verbs/li/verbClass</xpath>
+        <value>
+
+            <verbClass>magazynier.Verb_ShootWithMag</verbClass>
+        </value>
+    </Operation>
+     <!-- LMG-->
+     <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_LMG"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]</xpath>
+        <value>
+
+            <li Class="magazynier.CompProperties_MagazineUser">
+                        <magazineSize>1</magazineSize>
+                        <reloadTime>7</reloadTime>
+                        <ammoSet>Ammo9x19mmPara</ammoSet>
+                        <well>DP28</well>
+            </li>
+        </value>
+                                       
+      
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_LMG"]/verbs/li/verbClass</xpath>
+        <value>
+
+            <verbClass>magazynier.Verb_ShootWithMag</verbClass>
+        </value>
+    </Operation>
+</Patch>

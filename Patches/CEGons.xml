@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+            <li Class="CombatExtended.PatchOperationFindMod">
+				<modName>Combat Extended Guns</modName>
+			</li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="CE_Gun_MSixty"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]</xpath>
+                <value>
+        
+                    <li Class="magazynier.CompProperties_MagazineUser">
+                                <magazineSize>1</magazineSize>
+                                <reloadTime>12</reloadTime>
+                                <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+                                <well>m60link</well>
+                    </li>
+                </value>
+                                               
+              
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="CE_Gun_MSixty"]/verbs/li/verbClass</xpath>
+                <value>
+        
+                    <verbClass>magazynier.Verb_ShootWithMag</verbClass>
+                </value>
+            </li>
+            <!--PKM-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="CE_Gun_PKM"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]</xpath>
+                <value>
+        
+                    <li Class="magazynier.CompProperties_MagazineUser">
+                                <magazineSize>1</magazineSize>
+                                <reloadTime>11</reloadTime>
+                                <ammoSet>AmmoSet_762x54mmR</ammoSet>
+                                <well>Maxim54Belt</well>
+                    </li>
+                </value>
+                                               
+              
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="CE_Gun_PKM"]/verbs/li/verbClass</xpath>
+                <value>
+        
+                    <verbClass>magazynier.Verb_ShootWithMag</verbClass>
+                </value>
+            </li>
+             <!--RPD-->
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="CE_Gun_RPD"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]</xpath>
+                <value>
+        
+                    <li Class="magazynier.CompProperties_MagazineUser">
+                                <magazineSize>1</magazineSize>
+                                <reloadTime>10</reloadTime>
+                                <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+                                <well>rpdbelt</well>
+                    </li>
+                </value>
+                                               
+              
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="CE_Gun_RPD"]/verbs/li/verbClass</xpath>
+                <value>
+        
+                    <verbClass>magazynier.Verb_ShootWithMag</verbClass>
+                </value>
+            </li>
+             <!--FAL-->
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="CE_Gun_FNFAL"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]</xpath>
+                <value>
+        
+                    <li Class="magazynier.CompProperties_MagazineUser">
+                                <magazineSize>1</magazineSize>
+                                <reloadTime>5</reloadTime>
+                                <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+                                <well>fal</well>
+                    </li>
+                </value>
+                                               
+              
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="CE_Gun_FNFAL"]/verbs/li/verbClass</xpath>
+                <value>
+        
+                    <verbClass>magazynier.Verb_ShootWithMag</verbClass>
+                </value>
+            </li>
+             <!--AKM-->
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="CE_Gun_AKFortySeven"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]</xpath>
+                <value>
+        
+                    <li Class="magazynier.CompProperties_MagazineUser">
+                                <magazineSize>1</magazineSize>
+                                <reloadTime>4</reloadTime>
+                                <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+                                <well>sevensixtwobythirtynineak</well>
+                    </li>
+                </value>
+                                               
+              
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="CE_Gun_AKFortySeven"]/verbs/li/verbClass</xpath>
+                <value>
+        
+                    <verbClass>magazynier.Verb_ShootWithMag</verbClass>
+                </value>
+            </li>
+             <!--AK-12-->
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="CE_Gun_AKTwelve"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]</xpath>
+                <value>
+        
+                    <li Class="magazynier.CompProperties_MagazineUser">
+                                <magazineSize>1</magazineSize>
+                                <reloadTime>4</reloadTime>
+                                <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
+                                <well>fivefourfiveak</well>
+                    </li>
+                </value>
+                                               
+              
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="CE_Gun_AKTwelve"]/verbs/li/verbClass</xpath>
+                <value>
+        
+                    <verbClass>magazynier.Verb_ShootWithMag</verbClass>
+                </value>
+            </li>
+            
+        </operations>
+    </Operation>
+</Patch>

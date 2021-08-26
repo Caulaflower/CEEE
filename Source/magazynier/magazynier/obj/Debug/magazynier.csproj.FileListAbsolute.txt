@@ -1,0 +1,20 @@
+F:\Steam\steamapps\common\RimWorld\Mods\Magaziner\Assemblies\magazynier.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Magaziner\Assemblies\magazynier.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Magaziner\Source\magazynier\magazynier\obj\Debug\magazynier.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Magaziner\Source\magazynier\magazynier\obj\Debug\magazynier.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Magaziner\Source\magazynier\magazynier\obj\Debug\magazynier.csprojAssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\CE extended\Source\magazynier\magazynier\obj\Debug\magazynier.dll
+F:\Steam\steamapps\common\RimWorld\Mods\CE extended\Source\magazynier\magazynier\obj\Debug\magazynier.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\CE extended\Assemblies\magazynier.dll
+F:\Steam\steamapps\common\RimWorld\Mods\CE extended\Assemblies\magazynier.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\CE extended\Source\magazynier\magazynier\obj\Debug\magazynier.csprojAssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\Magazines\Assemblies\magazynier.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Magazines\Assemblies\magazynier.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Magazines\Source\magazynier\magazynier\obj\Debug\magazynier.csprojAssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\Magazines\Source\magazynier\magazynier\obj\Debug\magazynier.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Magazines\Source\magazynier\magazynier\obj\Debug\magazynier.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\CE+\Assemblies\magazynier.dll
+F:\Steam\steamapps\common\RimWorld\Mods\CE+\Assemblies\magazynier.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\CE+\Source\magazynier\magazynier\obj\Debug\magazynier.csprojAssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\CE+\Source\magazynier\magazynier\obj\Debug\magazynier.dll
+F:\Steam\steamapps\common\RimWorld\Mods\CE+\Source\magazynier\magazynier\obj\Debug\magazynier.pdb

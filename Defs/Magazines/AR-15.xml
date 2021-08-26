@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="ResourceBase">
+        <defName>20RoundWaffleAR</defName>
+        <label>20 AR magazine</label>
+        <description>20 round Vietnam style AR-15 system magazine.</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/waffle</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+          
+          <Flammability>0.2</Flammability>
+          <Mass>0.300</Mass>
+          <Bulk>0.50</Bulk>
+        </statBases>
+        <recipeMaker>
+          <recipeUsers>
+            <li>TableMachining</li>
+          </recipeUsers>
+          <researchPrerequisite>Gunsmithing</researchPrerequisite>
+          <skillRequirements>
+            <Crafting>4</Crafting>
+          </skillRequirements>
+        </recipeMaker>
+        <costList>
+          <Steel>5</Steel>
+        </costList>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>20</MagazineSize>
+                <MagazineWell>stanagmagwell</MagazineWell>
+                <reloadtime>4</reloadtime>
+                <ammosetdef>AmmoSet_556x45mmNATO</ammosetdef>
+                <secondaryammo>AmmoSet_300AACBlackout</secondaryammo>
+                
+            </li>
+        </comps>
+      </ThingDef>
+      <ThingDef ParentName="ResourceBase">
+        <defName>30RoundARMagazinesteel</defName>
+        <label>30 round AR mag (AL)</label>
+        <description>30 round AR-15 system magazine made from aluminum.</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/alum</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+          
+          <Flammability>0.2</Flammability>
+          <Mass>0.70</Mass>
+          <Bulk>0.70</Bulk>
+        </statBases>
+        <recipeMaker>
+          <recipeUsers>
+            <li>TableMachining</li>
+          </recipeUsers>
+          <researchPrerequisite>Gunsmithing</researchPrerequisite>
+          <skillRequirements>
+            <Crafting>5</Crafting>
+          </skillRequirements>
+        </recipeMaker>
+        <costList>
+          <Steel>5</Steel>
+        </costList>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>30</MagazineSize>
+                <MagazineWell>stanagmagwell</MagazineWell>
+                <reloadtime>4</reloadtime>
+                <ammosetdef>AmmoSet_556x45mmNATO</ammosetdef>
+                <secondaryammo>AmmoSet_300AACBlackout</secondaryammo>
+            </li>
+        </comps>
+      </ThingDef>
+      <ThingDef ParentName="ResourceBase">
+        <defName>30RoundPMAG</defName>
+        <label>30 PMAG</label>
+        <description>Polymer 30 round AR-15 system magazine designed by Bagpul company</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/Mag1</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>0.80</Mass>
+          <Bulk>0.75</Bulk>
+          <Flammability>0.2</Flammability>
+          
+        </statBases>
+        <recipeMaker>
+          <recipeUsers>
+            <li>TableMachining</li>
+          </recipeUsers>
+          <researchPrerequisite>Gunsmithing</researchPrerequisite>
+          <skillRequirements>
+            <Crafting>5</Crafting>
+          </skillRequirements>
+        </recipeMaker>
+        <costList>
+          <Chemfuel>15</Chemfuel>
+        </costList>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>30</MagazineSize>
+                <MagazineWell>stanagmagwell</MagazineWell>
+                <reloadtime>2</reloadtime>
+                <ammosetdef>AmmoSet_556x45mmNATO</ammosetdef>
+                <secondaryammo>AmmoSet_300AACBlackout</secondaryammo>
+            </li>
+        </comps>
+      </ThingDef>
+      <ThingDef ParentName="ResourceBase">
+        <defName>40RoundPMAG</defName>
+        <label>40 PMAG</label>
+        <description>Polymer 40 round AR-15 system magazine designed by Bagpul company</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/Mag1</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+        
+          <Flammability>0.2</Flammability>
+          <Mass>0.90</Mass>
+          <Bulk>1.00</Bulk>
+        </statBases>
+        <recipeMaker>
+          <recipeUsers>
+            <li>TableMachining</li>
+          </recipeUsers>
+          <researchPrerequisite>Gunsmithing</researchPrerequisite>
+          <skillRequirements>
+            <Crafting>5</Crafting>
+          </skillRequirements>
+        </recipeMaker>
+        <costList>
+          <Chemfuel>20</Chemfuel>
+        </costList>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>40</MagazineSize>
+                <MagazineWell>stanagmagwell</MagazineWell>
+                <reloadtime>3</reloadtime>
+                <ammosetdef>AmmoSet_556x45mmNATO</ammosetdef>
+                <secondaryammo>AmmoSet_300AACBlackout</secondaryammo>
+            </li>
+        </comps>
+      </ThingDef>
+
+      <ThingDef ParentName="ResourceBase">
+        <defName>60RoundPMAG</defName>
+        <label>60 PMAG</label>
+        <description>Polymer 40 round AR-15 system drum magazine designed by Bagpul company</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/Mag1</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>1.10</Mass>
+          <Bulk>1.60</Bulk>
+          <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <recipeMaker>
+          <recipeUsers>
+            <li>TableMachining</li>
+          </recipeUsers>
+          <researchPrerequisite>Gunsmithing</researchPrerequisite>
+          <skillRequirements>
+            <Crafting>12</Crafting>
+          </skillRequirements>
+        </recipeMaker>
+        <costList>
+          <Chemfuel>50</Chemfuel>
+          <ComponentIndustrial>1</ComponentIndustrial>
+          <Steel>5</Steel>
+        </costList>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>60</MagazineSize>
+                <MagazineWell>stanagmagwell</MagazineWell>
+                <reloadtime>4</reloadtime>
+                <ammosetdef>AmmoSet_556x45mmNATO</ammosetdef>
+                <secondaryammo>AmmoSet_300AACBlackout</secondaryammo>
+            </li>
+        </comps>
+      </ThingDef>
+    
+
+</Defs>

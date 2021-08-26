@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="ResourceBase">
+        <defName>glockmagwell17Rounder</defName>
+        <label>17 round Block magazine</label>
+        <description>17 round Block system magazine.</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/block</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>0.055</Mass>
+          <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>17</MagazineSize>
+                <MagazineWell>glockmagwell</MagazineWell>
+                <reloadtime>4</reloadtime>
+                <ammosetdef>AmmoSet_9x19mmPara</ammosetdef>
+            </li>
+        </comps>
+      </ThingDef>
+      <ThingDef ParentName="ResourceBase">
+        <defName>glockmagwell33Rounder</defName>
+        <label>33 round Block magazine</label>
+        <description>33 round Block system magazine.</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/block</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>0.095</Mass>
+          <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>33</MagazineSize>
+                <MagazineWell>glockmagwell</MagazineWell>
+                <reloadtime>4</reloadtime>
+                <ammosetdef>AmmoSet_9x19mmPara</ammosetdef>
+            </li>
+        </comps>
+      </ThingDef>
+      <ThingDef ParentName="ResourceBase">
+        <defName>glockmagwell50Rounder</defName>
+        <label>50 round Block drum magazine</label>
+        <description>50 round Block system drum magazine.</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/Mag1</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>0.125</Mass>
+          <Bulk>3</Bulk>
+          <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>50</MagazineSize>
+                <MagazineWell>glockmagwell</MagazineWell>
+                <reloadtime>4</reloadtime>
+                <ammosetdef>AmmoSet_9x19mmPara</ammosetdef>
+            </li>
+        </comps>
+      </ThingDef>
+      <ThingDef ParentName="ResourceBase">
+        <defName>glockmagwell100Rounder</defName>
+        <label>100 round Block drum magazine</label>
+        <description>100 round Block system double drum magazine.</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/Mag1</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>0.250</Mass>
+          <Bulk>6</Bulk>
+          <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>100</MagazineSize>
+                <MagazineWell>glockmagwell</MagazineWell>
+                <reloadtime>4</reloadtime>
+                <ammosetdef>AmmoSet_9x19mmPara</ammosetdef>
+            </li>
+        </comps>
+      </ThingDef>
+
+</Defs>

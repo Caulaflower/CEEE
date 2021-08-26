@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="ResourceBase">
+        <defName>UMP4525Rounder</defName>
+        <label>25 round UMP magazine</label>
+        <description>25 round HBK UMP-45 magazine.</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/Mag1</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>2</Mass>
+          <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>25</MagazineSize>
+                <MagazineWell>umpmagwell</MagazineWell>
+                <reloadtime>2</reloadtime>
+                <ammosetdef>AmmoSet_45ACP</ammosetdef>
+            </li>
+        </comps>
+      </ThingDef>
+      
+
+</Defs>

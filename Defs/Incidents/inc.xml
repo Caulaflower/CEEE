@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================== Big threats ==============================-->
+  
+  <IncidentDef>
+    <defName>IanJoins</defName>
+    <label>Ian Mccollumn join offer</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>magazynier.Ian.idfkman</workerClass>
+    <baseChance>3.7</baseChance>
+    <category>ThreatBig</category>
+    <pointsScaleable>false</pointsScaleable>
+    
+  </IncidentDef>
+
+
+  <IncidentDef>
+    <defName>IanJoinsree</defName>
+    <label>Ian McCollumn joins</label>
+    <category>Special</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_WandererJoin</workerClass>
+    <letterLabel>Gun Jesus</letterLabel>
+    <letterText>Since you paid Gun Jesus enough .32 french longue, he joined you.</letterText>
+    <baseChance>0</baseChance>
+   
+   
+    <pawnKind>IanPawnKind</pawnKind>
+    <pawnFixedGender>Male</pawnFixedGender>
+    <pawnMustBeCapableOfViolence>true</pawnMustBeCapableOfViolence>
+  
+  </IncidentDef>
+</Defs>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="ResourceBase">
+        <defName>svd10Rounder</defName>
+        <label>10 round svd magazine</label>
+        <description>10 round svd magazine.</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/Mag1</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+         
+          <Flammability>0.2</Flammability>
+          <Mass>0.300</Mass>
+          <Bulk>0.50</Bulk>
+        </statBases>
+        <recipeMaker>
+          <recipeUsers>
+            <li>TableMachining</li>
+          </recipeUsers>
+          <researchPrerequisite>Gunsmithing</researchPrerequisite>
+          <skillRequirements>
+            <Crafting>5</Crafting>
+          </skillRequirements>
+        </recipeMaker>
+        <costList>
+          <Steel>10</Steel>
+        </costList>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>10</MagazineSize>
+                <MagazineWell>svdagwell</MagazineWell>
+                <reloadtime>4</reloadtime>
+                <ammosetdef>AmmoSet_762x54mmR</ammosetdef>
+            </li>
+        </comps>
+      </ThingDef>
+      <ThingDef ParentName="ResourceBase">
+        <defName>svd20Rounder</defName>
+        <label>20 round svd magazine</label>
+        <description>20 round svd magazine.</description>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+          <texPath>Mag/Mag1</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+          <MarketValue>4000</MarketValue>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>0.70</Mass>
+          <Bulk>0.70</Bulk>
+          <Flammability>0.2</Flammability>
+        </statBases>
+        <recipeMaker>
+          <recipeUsers>
+            <li>TableMachining</li>
+          </recipeUsers>
+          <researchPrerequisite>Gunsmithing</researchPrerequisite>
+          <skillRequirements>
+            <Crafting>3</Crafting>
+          </skillRequirements>
+        </recipeMaker>
+        <costList>
+          <Steel>20</Steel>
+        </costList>
+        <thingCategories>
+          <li>Items</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+          <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="magazynier.GasineProp">
+                <MagazineSize>20</MagazineSize>
+                <MagazineWell>svdagwell</MagazineWell>
+                <reloadtime>3</reloadtime>
+                <ammosetdef>AmmoSet_762x54mmR</ammosetdef>
+            </li>
+        </comps>
+      </ThingDef>
+    
+
+</Defs>

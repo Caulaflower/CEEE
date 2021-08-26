@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="BaseHumanMakeableGun_CEEE">
+        <defName>FAMASGtwo</defName>
+        <label>FAMAS G2</label>
+        <description>Ancient bullpup assault rifle with an interesting lever delayed blowback operating system.</description>
+        <graphicData>
+          <texPath>Guns/Famas/famas</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <weaponTags><li>Ian</li></weaponTags>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+          <WorkToMake>32000</WorkToMake>
+          <SightsEfficiency>1.5</SightsEfficiency>
+          <ShotSpread>0.09</ShotSpread>
+          <SwayFactor>1.28</SwayFactor>
+          <Bulk>7.25</Bulk>
+          <Mass>3.3</Mass>
+          <RangedWeapon_Cooldown>0.42</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+          <Steel>30</Steel>
+          <ComponentIndustrial>5</ComponentIndustrial>
+          <Chemfuel>20</Chemfuel>
+        </costList>
+        <verbs>
+          <li Class="CombatExtended.VerbPropertiesCE">
+            <recoilAmount>1.30</recoilAmount>
+            <verbClass>magazynier.Verb_ShootWithMag</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
+            <burstShotCount>6</burstShotCount>
+            <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+            <warmupTime>0.91</warmupTime>
+            <range>61</range>
+            <soundCast>Shot_AssaultRifle</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+          </li>
+        </verbs>
+        <comps>
+          <li Class="magazynier.CompProperties_MagazineUser">
+            <magazineSize>30</magazineSize>
+            <reloadTime>4</reloadTime>
+            <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+            <well>stanagmagwell</well>
+          </li>
+          <li Class="CombatExtended.CompProperties_FireModes">
+            <aiUseBurstMode>TRUE</aiUseBurstMode>
+            <aiAimMode>AimedShot</aiAimMode>
+            <aimedBurstShotCount>3</aimedBurstShotCount>
+          </li>
+        </comps>
+        <recipeMaker>
+          <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+        </recipeMaker>
+        <tools>
+          <li Class="CombatExtended.ToolCE">
+            <label>stock</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>8</power>
+            <cooldownTime>1.55</cooldownTime>
+            <chanceFactor>1.5</chanceFactor>
+            <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+            <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+          </li>
+          <li Class="CombatExtended.ToolCE">
+            <label>barrel</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>5</power>
+            <cooldownTime>2.02</cooldownTime>
+            <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+            <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+          </li>
+          <li Class="CombatExtended.ToolCE">
+            <label>muzzle</label>
+            <capacities>
+              <li>Poke</li>
+            </capacities>
+            <power>8</power>
+            <cooldownTime>1.55</cooldownTime>
+            <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+            <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+          </li>
+        </tools>
+        <modExtensions>
+          <li Class="CombatExtended.GunDrawExtension">
+            <DrawSize>1.08,1.15</DrawSize>
+            <DrawOffset>0.12,-0.1</DrawOffset>
+          </li>
+        </modExtensions>
+      </ThingDef>
+</Defs>

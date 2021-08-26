@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <JobDef>
+		<defName>SwitchMagazine</defName>
+		<driverClass>magazynier.SficzMags</driverClass>
+		<reportString>Switching magazines</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+   <JobDef>
+		<defName>PackMag</defName>
+		<driverClass>magazynier.PackMag</driverClass>
+		<reportString>Packing magazine</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+	<JobDef>
+		<defName>shootoutdoor</defName>
+		<driverClass>magazynier.breach.ShotgunDoor</driverClass>
+		<reportString>Shooting out door</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+  
+
+</Defs>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- ==================== Gun Jesus ==================== -->
+
+  <HairDef>
+    <defName>GonHesus</defName>
+    <label>Gun Jesus haircut</label>
+    <styleGender>Male</styleGender>
+    <texPath>Ian/Hair/Gun_Jesus_Hair</texPath>
+    <category>Jesus</category>
+    <styleTags>
+      <li>Jesus</li>
+    </styleTags>
+  </HairDef>
+
+  <!-- ==================== Category ==================== -->
+
+  <StyleItemCategoryDef>
+    <defName>Jesus</defName>
+    <label>Gun Jesus</label>
+  </StyleItemCategoryDef>
+
+</Defs>
